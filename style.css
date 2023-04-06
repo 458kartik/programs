@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+
+header {
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)), url("space.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+ul {
+    float: right;
+    list-style-type: none;
+}
+
+ul li {
+    display: inline-block;
+    margin-top: 25px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid transparent;
+    padding: 5px 20px;
+}
+
+ul li.active a{
+    color: black;
+    background-color: white;
+}
+
+ul li a:hover{
+    color: black;
+    background-color: white;
+    transition-duration: 1s;
+}
+
+.main {
+    margin: auto;
+    max-width: 1200px;
+}
+
+.heading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.heading {
+    font-size: 70px;
+    color: white;
+}
+
+.button {
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.btn {
+    border: 1px solid white;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+}
+
+.btn:hover {
+    color: black;
+    background-color: white;
+    transition-duration: 1s;
+}
